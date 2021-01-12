@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Drive';
+  isDisplay = true;
+
+  toggleDisplay() {
+   this.isDisplay = !this.isDisplay;
+  }
 }
+
+
